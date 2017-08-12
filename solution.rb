@@ -13,12 +13,12 @@ post '/nuevo' do
   redirect '/'
 end
 
-delete '/borrar_tarea/:id' do
+delete '/borrar/:id' do
   Tarea.destroy(params[:id])
   redirect '/'
 end
 
-put '/terminar_tarea/:id' do
+put '/terminar/:id' do
   Tarea.update(params[:id])
   redirect '/'
 end

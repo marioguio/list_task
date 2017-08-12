@@ -46,8 +46,8 @@
                 afirmativo
                 <% end %>
               </td>
-              <td><a data-method="delete" href="/borrar_tarea/<%= t['id'] %>" ><span class="glyphicon glyphicon-trash"></span></a></td>
-              <td><a data-method="put" href="/terminar_tarea/<%= t['id'] %>" ><span class="glyphicon glyphicon-ok"></span></a></td>
+              <td><a data-method="delete" href="/borrar/<%= t['id'] %>" ><span class="glyphicon glyphicon-trash"></span></a></td>
+              <td><a data-method="put" href="/terminar/<%= t['id'] %>" ><span class="glyphicon glyphicon-ok"></span></a></td>
             </tr>
             <% end %>
             <% end %>
@@ -94,7 +94,7 @@
               afirmativo
               <% end %>
             </td>
-            <td><a data-method="delete" href="/borrar_tarea/<%= t['id'] %>" ><span class="glyphicon glyphicon-trash"></span></a></td>
+            <td><a data-method="delete" href="/borrar/<%= t['id'] %>" ><span class="glyphicon glyphicon-trash"></span></a></td>
           </tr>
           <% end %>
           <% end %>
