@@ -1,0 +1,14 @@
+.f{
+  text-align: center;
+}
+body{
+  background-color: #785964;
+  color: white;
+}
+body:hover{
+  color: black;
+}
+
+th{
+  color:white;
+}
